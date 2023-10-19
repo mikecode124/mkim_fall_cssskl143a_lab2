@@ -1,11 +1,7 @@
-
 import java.io.*;
-
-/** for Class Design - convert to IntList  */
-
 public class IntList {
 
-
+    // used index counter for data[]
     private int numElements = 0;
     private int[] data = new int[100]; // caps at 100 elements with no bullet-proofing or bounds checks, etc.
 
